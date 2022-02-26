@@ -6,7 +6,7 @@ struct ProfileView: View {
   
   private let provider: ProfileContentProviderProtocol
   
-  init(provider: ProfileContentProviderProtocol, user: User) {
+  init(provider: ProfileContentProviderProtocol = DIContainer.shared.resolve(type: ProfileContentProviderProtocol.self)!, user: User = DIContainer.shared.resolve(type: User.self)!) {
     self.provider = provider
     self.user = user
   }
@@ -33,7 +33,7 @@ struct ProfileView: View {
 struct ProfileView_Previews: PreviewProvider {
   static var previews: some View {
     let user: User = Mock.user()
-    let provider = ProfileContentProvider(privacyLevel: .everyone, user: user)
+    let provider = ProfileContentProvider(privacyLevel: .friend, user: user)
     ProfileView(provider: provider, user: user)
   }
 }

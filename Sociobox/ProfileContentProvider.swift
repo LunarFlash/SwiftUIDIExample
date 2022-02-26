@@ -15,7 +15,7 @@ final class ProfileContentProvider: ProfileContentProviderProtocol {
   let privacyLevel: PrivacyLevel
   private let user: User
   
-  init(privacyLevel: PrivacyLevel, user: User) {
+  init(privacyLevel: PrivacyLevel = DIContainer.shared.resolve(type: PrivacyLevel.self)!, user: User = DIContainer.shared.resolve(type: User.self)!) {
     self.privacyLevel = privacyLevel
     self.user = user
   }
