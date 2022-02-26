@@ -21,6 +21,8 @@
 		3288BEA324F3CD6B00EC73B9 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3288BE9C24F3CD6B00EC73B9 /* ImageView.swift */; };
 		9D7FDE8527C9A581001949C1 /* ProfileContentProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7FDE8427C9A581001949C1 /* ProfileContentProvider.swift */; };
 		9D7FDE8727C9B7ED001949C1 /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7FDE8627C9B7ED001949C1 /* DIContainer.swift */; };
+		9D7FDE8B27C9D5C2001949C1 /* PreferencesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7FDE8A27C9D5C2001949C1 /* PreferencesStore.swift */; };
+		9D7FDE8D27C9D790001949C1 /* UserPreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7FDE8C27C9D790001949C1 /* UserPreferencesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		3288BE9C24F3CD6B00EC73B9 /* ImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		9D7FDE8427C9A581001949C1 /* ProfileContentProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileContentProvider.swift; sourceTree = "<group>"; };
 		9D7FDE8627C9B7ED001949C1 /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
+		9D7FDE8A27C9D5C2001949C1 /* PreferencesStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesStore.swift; sourceTree = "<group>"; };
+		9D7FDE8C27C9D790001949C1 /* UserPreferencesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPreferencesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 				3288BE9824F3CD6B00EC73B9 /* Mock.swift */,
 				3288BE9724F3CD6B00EC73B9 /* ImageLoader.swift */,
 				32416BFC250F955400D46752 /* PrivacySetting.swift */,
+				9D7FDE8A27C9D5C2001949C1 /* PreferencesStore.swift */,
 				9D7FDE8427C9A581001949C1 /* ProfileContentProvider.swift */,
 				9D7FDE8627C9B7ED001949C1 /* DIContainer.swift */,
 			);
@@ -103,6 +108,7 @@
 		3288BE9A24F3CD6B00EC73B9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9D7FDE8C27C9D790001949C1 /* UserPreferencesView.swift */,
 				3288BE9B24F3CD6B00EC73B9 /* ProfileView.swift */,
 				3288BE9C24F3CD6B00EC73B9 /* ImageView.swift */,
 			);
@@ -209,7 +215,9 @@
 				3288BEA224F3CD6B00EC73B9 /* ProfileView.swift in Sources */,
 				9D7FDE8527C9A581001949C1 /* ProfileContentProvider.swift in Sources */,
 				18D775C322AD944300AE281E /* SceneDelegate.swift in Sources */,
+				9D7FDE8D27C9D790001949C1 /* UserPreferencesView.swift in Sources */,
 				3288BE9F24F3CD6B00EC73B9 /* ImageLoader.swift in Sources */,
+				9D7FDE8B27C9D5C2001949C1 /* PreferencesStore.swift in Sources */,
 				3288BEA024F3CD6B00EC73B9 /* Mock.swift in Sources */,
 				3288BEA124F3CD6B00EC73B9 /* User.swift in Sources */,
 				3288BE9D24F3CD6B00EC73B9 /* PrivacyLevel.swift in Sources */,
